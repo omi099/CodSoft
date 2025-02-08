@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <meta
+      name="description"
+      content="A modern, accessible calculator built with vanilla HTML, CSS, and JavaScript."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="calculator" role="application">
+      <div class="display" role="textbox" aria-readonly="true" id="display">
+        0
+      </div>
+      <div class="buttons">
+        <button class="button operator" data-key="Escape">AC</button>
+        <button class="button operator" data-key="c">C</button>
+        <button class="button operator" data-key="%">%</button>
+        <button class="button operator" data-key="/">÷</button>
+        <button class="button" data-key="7">7</button>
+        <button class="button" data-key="8">8</button>
+        <button class="button" data-key="9">9</button>
+        <button class="button operator" data-key="*">×</button>
+        <button class="button" data-key="4">4</button>
+        <button class="button" data-key="5">5</button>
+        <button class="button" data-key="6">6</button>
+        <button class="button operator" data-key="-">-</button>
+        <button class="button" data-key="1">1</button>
+        <button class="button" data-key="2">2</button>
+        <button class="button" data-key="3">3</button>
+        <button class="button operator" data-key="+">+</button>
+        <button class="button" data-key="0">0</button>
+        <button class="button" data-key=".">.</button>
+        <button class="button operator" data-key="pm">+/-</button>
+        <button class="button equals" data-key="Enter">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
